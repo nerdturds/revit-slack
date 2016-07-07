@@ -1,0 +1,47 @@
+# Folders #
+###########
+bin/
+obj/
+publish/
+publish*
+$*/
+
+# Compiled source #
+###################
+*.suo
+*.user
+*.class
+*.exe
+*.o
+*.so
+*.lnk
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+!*.dll
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+*.cache
+*.dat
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Thumbs.db
+*.gif
+examples/
+packages/

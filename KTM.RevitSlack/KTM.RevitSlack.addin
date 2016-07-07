@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>KTM.RevitSlack</Name>
+    <Assembly>KTM.RevitSlack\KTM.RevitSlack.dll</Assembly>
+    <FullClassName>KTM.RevitSlack.Entry.AppMain</FullClassName>
+    <ClientId>ba29b43d-34b6-4b72-83cc-c9091df04807</ClientId>
+    <VendorId>INVL</VendorId>
+  </AddIn>
+</RevitAddIns>

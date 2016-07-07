@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTM.RevitSlack", "KTM.RevitSlack\KTM.RevitSlack.csproj", "{000E1E89-0000-0000-0000-000000000000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug-2014|Any CPU = Debug-2014|Any CPU
+		Debug-2015|Any CPU = Debug-2015|Any CPU
+		Debug-2016|Any CPU = Debug-2016|Any CPU
+		Release-2014|Any CPU = Release-2014|Any CPU
+		Release-2015|Any CPU = Release-2015|Any CPU
+		Release-2016|Any CPU = Release-2016|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{000E1E89-0000-0000-0000-000000000000}.Debug-2014|Any CPU.ActiveCfg = Debug-2014|Any CPU
+		{000E1E89-0000-0000-0000-000000000000}.Debug-2014|Any CPU.Build.0 = Debug-2014|Any CPU
+		{000E1E89-0000-0000-0000-000000000000}.Debug-2015|Any CPU.ActiveCfg = Debug-2015|Any CPU
+		{000E1E89-0000-0000-0000-000000000000}.Debug-2015|Any CPU.Build.0 = Debug-2015|Any CPU
+		{000E1E89-0000-0000-0000-000000000000}.Debug-2016|Any CPU.ActiveCfg = Debug-2016|Any CPU
+		{000E1E89-0000-0000-0000-000000000000}.Debug-2016|Any CPU.Build.0 = Debug-2016|Any CPU
+		{000E1E89-0000-0000-0000-000000000000}.Release-2014|Any CPU.ActiveCfg = Release-2014|Any CPU
+		{000E1E89-0000-0000-0000-000000000000}.Release-2014|Any CPU.Build.0 = Release-2014|Any CPU
+		{000E1E89-0000-0000-0000-000000000000}.Release-2015|Any CPU.ActiveCfg = Release-2015|Any CPU
+		{000E1E89-0000-0000-0000-000000000000}.Release-2015|Any CPU.Build.0 = Release-2015|Any CPU
+		{000E1E89-0000-0000-0000-000000000000}.Release-2016|Any CPU.ActiveCfg = Release-2016|Any CPU
+		{000E1E89-0000-0000-0000-000000000000}.Release-2016|Any CPU.Build.0 = Release-2016|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

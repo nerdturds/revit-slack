@@ -1,0 +1,53 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KTM.RevitSlack.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Prj_Name" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">vstemplateproject</Value>
+    </Setting>
+    <Setting Name="Cmd_01_Description" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Harvest my model!!</Value>
+    </Setting>
+    <Setting Name="Cmd_01_EntryPoint_Class" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">KTM.RevitSlack.Entry.CmdMain</Value>
+    </Setting>
+    <Setting Name="Cmd_01_ButtonName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">IVL.Button</Value>
+    </Setting>
+    <Setting Name="Cmd_01_ButtonText" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Harvest
+Building</Value>
+    </Setting>
+    <Setting Name="Prj_IconPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">icons</Value>
+    </Setting>
+    <Setting Name="Cmd_01_Button_Icon_32" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">harvest_32.png</Value>
+    </Setting>
+    <Setting Name="Cmd_01_Button_Icon_16" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">harvest_16.png</Value>
+    </Setting>
+    <Setting Name="Prj_RevitVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2015</Value>
+    </Setting>
+    <Setting Name="Prj_Error_RevitVersion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Incompatible Revit Version</Value>
+    </Setting>
+    <Setting Name="Prj_Error_Revit_UserString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">This Add-In was built for Revit </Value>
+    </Setting>
+    <Setting Name="Prj_Error_Revit_Contact" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">please contact INVIEWlabs for assistance...</Value>
+    </Setting>
+    <Setting Name="Prj_Error_API_Error" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">App License Not Verified</Value>
+    </Setting>
+    <Setting Name="Prj_Error_API_Error_Description" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Either the tool has been retired or your License to use the tool has not been validated or has expired. 
+Contact {{Someone}} for assistance.</Value>
+    </Setting>
+    <Setting Name="Prj_Client" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">IVL</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
