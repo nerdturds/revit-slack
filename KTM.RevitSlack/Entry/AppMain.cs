@@ -36,7 +36,7 @@ namespace KTM.RevitSlack.Entry
                 _uiApp = a;
 
                 //Ribbon panels
-                string m_tabName = Helpers.projectClient;
+                string m_tabName = "NerdTurds";
 
                 try
                 {
@@ -49,6 +49,7 @@ namespace KTM.RevitSlack.Entry
 
                 //Create Path to Icons Folder         
                 string m_iconPath = string.Join(".",
+                 Helpers.projectClient,
                   Helpers.projectName,
                   Helpers.projectIconPath) + ".";
 
@@ -59,20 +60,22 @@ namespace KTM.RevitSlack.Entry
 
                 //Add Cmd_01_Button : Should be attached to First Executed Command.
                 AddButton(m_mPanel,
-                  "ButtonName",
-                  "ButtonText",
-                  string.Concat(m_iconPath, "icon_16.png"),
-                  string.Concat(m_iconPath, "icon_32.png"),
+                  "revitslack",
+                  "Launch Project Slack",
+                  string.Concat(m_iconPath, "slack_16.png"),
+                  string.Concat(m_iconPath, "slack_32.png"),
                   Path.Combine(_path, Helpers.assemblyName + ".dll"),
-                  Helpers.projectName + ".Entry.CmdMain",
-                  "DESCRIPTION",
-                  "",
+                  Helpers.projectClient + "." + Helpers.projectName + ".Entry.CmdMain",
+                  "Launch slack channel for project",
+                  typeof(cmdAvail).FullName,
                   false);
             }
             catch (Exception m_e)
             {
                 //throw new Exception(m_e.Message);
             }
+
+            //Register Dockablepane
 
             return Result.Succeeded;
         }

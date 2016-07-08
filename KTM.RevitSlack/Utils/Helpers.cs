@@ -17,8 +17,8 @@ namespace KTM.RevitSlack.Utils
         private static readonly Type t = assy.GetTypes().First();
         public static string assemblyName = assy.GetName().Name;
         public static string assemblyVersion = assy.GetName().Version.ToString();
-        public static string projectClient = "IVL";
-        public static string projectName = "FILL ME OUT"; //TODO: ProjectName
+        public static string projectClient = "KTM";
+        public static string projectName = "RevitSlack";
         public static string projectNamespace = t.Namespace;
         public static string projectIconPath = "icons";
         public static string projectRevitVersion = clsAppVersionHelpers.RevitVersion;
