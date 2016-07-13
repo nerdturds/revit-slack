@@ -7,10 +7,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("KTM.RevitSlack")]
 [assembly: AssemblyDescription("KTM.RevitSlack")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("INVIEWlabs")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("KTM.RevitSlack")]
-[assembly: AssemblyCopyright("Copyright © INVIEWlabs, LLC 2016")]
-[assembly: AssemblyTrademark("INVIEWlabs")]
+[assembly: AssemblyCopyright("Copyright © Kyle T Morin 2016")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 

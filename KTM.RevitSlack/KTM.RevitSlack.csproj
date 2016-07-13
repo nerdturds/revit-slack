@@ -198,8 +198,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="Settings.cs" />
-    <Compile Include="UI\ctrlProgress.xaml.cs">
-      <DependentUpon>ctrlProgress.xaml</DependentUpon>
+    <Compile Include="UI\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Utils\clsAppVersionHelpers.cs" />
     <Compile Include="Utils\clsEntryChecks.cs" />
@@ -226,7 +226,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config.bak" />
+    <None Include="project.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -240,7 +241,7 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82E}" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="UI\ctrlProgress.xaml">
+    <Page Include="UI\MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -336,9 +337,5 @@ Custom Tasks and Build Events
     <Copy SourceFiles="@(SourceDLLs)" DestinationFolder="$(AppData)\Autodesk\REVIT\Addins\$(RevitVersion)\$(ProjectName)\%(RecursiveDir)" />
     <Copy SourceFiles="@(SourceManifest)" DestinationFolder="$(AppData)\Autodesk\REVIT\Addins\$(RevitVersion)\" />
   </Target>
-  <ProjectExtensions>
-    <VisualStudio>
-      <UserProperties Resources_2bsv1FieldMapping_1json__JSONSchema="" />
-    </VisualStudio>
-  </ProjectExtensions>
+  <ProjectExtensions />
 </Project>

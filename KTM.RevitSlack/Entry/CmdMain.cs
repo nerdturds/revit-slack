@@ -58,15 +58,6 @@ namespace KTM.RevitSlack.Entry
         }
 
         #region PRIVATE MEMBERS
-        /// <summary>
-        /// Progress Bar thread
-        /// </summary>
-        private void ThreadStartingPoint()
-        {
-            ctrlProgress progressBar = new ctrlProgress("labs");
-            progressBar.Show();
-            System.Windows.Threading.Dispatcher.Run();
-        }
 
         #endregion
     }

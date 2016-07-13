@@ -1,0 +1,9 @@
+﻿{
+  "dependencies": {
+    "Newtonsoft.Json": "9.0.1",
+    "Restsharp": "105.2.3",
+  }
+  "frameworks": {
+    "net45" :  {} 
+  }  
+}
